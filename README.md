@@ -7,7 +7,11 @@
 <a target="_blank" href="https://www.linkedin.com/in/weng-fung/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="Linked-In" data-canonical-src="https://img.shields.io/badge/LinkedIn-blue?style=flat&amp;logo=linkedin&amp;labelColor=blue" style="max-width:10ch;"></a>
 <a target="_blank" href="https://www.youtube.com/@WayneTeachesCode/" rel="nofollow"><img src="https://img.shields.io/badge/Youtube-red?style=flat&logo=youtube&labelColor=red" alt="Youtube" data-canonical-src="https://img.shields.io/badge/Youtube-red?style=flat&amp;logo=youtube&amp;labelColor=red" style="max-width:10ch;"></a>
 
-A simple speech-to-text transcription tool using OpenAI's Whisper model. Ideal for transcribing voice memos you've AirDropped from your iPhone.
+A free speech-to-text transcription tool that runs entirely locally using OpenAI’s Whisper (no uploads, no API calls - free). It reads audio files that has speech, then gives you the text.
+
+Can work with Mac:
+- It uses the small Whisper model for fast performance on M1 chips.
+- Batch mode can transcribe iPhone voice memos you’ve AirDropped into text.
 
 ## Setup
 
