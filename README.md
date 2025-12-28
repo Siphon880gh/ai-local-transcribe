@@ -11,7 +11,7 @@ A free speech-to-text transcription tool that runs entirely locally using OpenAI
 
 Can work with Mac:
 - It uses the small Whisper model for fast performance on M1 chips.
-- Batch mode can transcribe iPhone voice memos you’ve AirDropped into text.
+- Batch mode can transcribe iPhone voice memos you’ve AirDropped.
 
 ## Setup
 
@@ -29,6 +29,18 @@ pip install openai-whisper
 ```
 
 ## Usage
+
+### Single File Transcription
+
+Use `direct.py` for transcribing a single audio file.
+
+1. Place your audio file in this folder
+2. Edit `direct.py` and change `"INPUT.m4a"` to your filename
+3. Run:
+
+```bash
+python direct.py
+```
 
 ### Batch Transcription (Multiple Files)
 
@@ -62,18 +74,6 @@ And here's the second one...
 
 [c.m4a]
 The third memo continues...
-```
-
-### Single File Transcription
-
-Use `direct.py` for transcribing a single audio file.
-
-1. Place your audio file in this folder
-2. Edit `direct.py` and change `"INPUT.m4a"` to your filename
-3. Run:
-
-```bash
-python direct.py
 ```
 
 ## Tips
