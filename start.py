@@ -1,9 +1,3 @@
-# Direct
-# import whisper
-# model = whisper.load_model("small")
-# result = model.transcribe("INPUT.m4a")
-# print(result["text"])
-
 """
 Batch-transcribe sequentially named audio files like:
   a.m4a, b.m4a, c.m4a, ...
